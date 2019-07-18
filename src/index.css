@@ -1,8 +1,13 @@
+
+@font-face {
+	font-family: 'bnazanb';
+	src: url('/fonts/bnazanb/bnazanb.eot');
+	src: local('bnazanb'), url('/fonts/bnazanb/bnazanb.woff') format('woff'), url('/fonts/bnazanb/bnazanb.ttf') format('truetype');
+}
 body {
+  font-family: 'bnazanb' !important;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
