@@ -1,0 +1,57 @@
+.promotion-page {
+    display: flex;
+    flex-direction: row;
+
+    .promotion-main {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        height: 100vh;
+        background-color: #ffffff;        ;
+        overflow-x: scroll;
+        padding: 1em;
+        direction: rtl;
+        h1 {
+            color: white;
+            font-size: 1.4em;
+            font-weight: inherit;
+        }
+    }
+
+    .promotion-menu {
+        background-color: #009688  ;
+        min-width: 45vh;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        direction: rtl;
+
+        h3 {
+            font-size: 1.1em;
+            font-weight: inherit;
+        }
+    }
+}
+
+.MuiTypography-body1 {
+    font-size: 1rem !important;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.MuiInputLabel-formControl {
+    top: 0;
+    left: inherit !important;
+    position: absolute;
+    transform: translate(0, 24px) scale(1); 
+    font-size: 1.15em !important;
+}
+.MuiInputLabel-shrink{
+    transform: translate(0,0) scale(0.75) !important;
+    transform-origin: top right !important;
+    text-align: right;
+}
+.MuiInputBase-input {
+    font-size: 1.15em !important;
+} 

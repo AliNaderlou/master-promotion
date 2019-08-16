@@ -1,18 +1,17 @@
 
 @font-face {
-	font-family: 'bnazanb';
-	src: url('/fonts/bnazanb/bnazanb.eot');
-	src: local('bnazanb'), url('/fonts/bnazanb/bnazanb.woff') format('woff'), url('/fonts/bnazanb/bnazanb.ttf') format('truetype');
+	font-family: 'Yekan';
+	src: url('/fonts/Yekan/Yekan.eot');
+	src: local('Yekan'), url('/fonts/Yekan/Yekan.woff') format('woff'), url('/fonts/Yekan/Yekan.ttf') format('truetype');
 }
 body {
-  font-family: 'bnazanb' !important;
   margin: 0;
-  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  font-family: 'Yekan' !important;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Yekan' !important;
 }

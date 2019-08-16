@@ -7,7 +7,7 @@
         flex-direction: column;
         flex-grow: 1;
         height: 100vh;
-        background-color: steelblue;
+        background-color: white;
         overflow: hidden;
 
         h1 {
@@ -37,7 +37,7 @@
                 display: flex;
                 justify-content: space-between;
                 padding: 12px;
-                font-size:1.15em;
+                font-size: 1.15em;
                 font-weight: bold;
                 align-items: center;
 
@@ -63,16 +63,16 @@
                 font-size: 1em;
                 font-weight: inherit;
                 cursor: pointer;
-                background-color: steelblue;
+                background-color: #009688;
                 color: white;
             }
         }
 
         .info {
             direction: rtl;
-            font-size:1.05em;
+            font-size: 1.05em;
             padding: 0 10px;
-            text-align: center  ;
+            text-align: center;
         }
     }
 }
